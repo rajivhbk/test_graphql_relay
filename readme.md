@@ -2,7 +2,7 @@
 
 just clone this repo
 
-#install dependenciews
+# install dependenciews
 npm i
 
 # to start the server and watch for changes
