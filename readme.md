@@ -2,11 +2,11 @@
 
 just clone this repo
 
-# install dependenciews
+# install dependencies
 npm i
-
-# to start the server and watch for changes
-npm start
 
 # genarate a build, watch for changes, and generate source maps
 webpack -w -d
+
+# to start the server and watch for changes
+npm start
