@@ -1,7 +1,7 @@
 {
   "name": "sample_express_react_setup",
   "version": "1.0.0",
-  "description": "",
+  "description": "Trying out graphQL, Relay",
   "keywords": [
     "webpack 4",
     "React 16",
