@@ -27,6 +27,5 @@ module.exports = {
       }
     ]
   },
-  plugins: [htmlPlugin],
-  mode: "development"
+  plugins: [htmlPlugin]
 };

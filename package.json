@@ -10,7 +10,10 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js --exec babel-node --presets @babel/preset-env"
+    "build": "webpack -wp",
+    "dev": "webpack -wd --mode=development",
+    "server": "nodemon server.js --exec babel-node --presets @babel/preset-env",
+    "start": "(start npm run dev && start npm run server) || (npm run dev & npm run server)"
   },
   "author": "rajivhbk",
   "license": "MIT",
