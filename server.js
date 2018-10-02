@@ -7,8 +7,6 @@ app.use(express.static('dist'));
 
 let db;
 
-console.log(process.env, 'URI');
-
 MongoClient.connect(process.env.MONGO_URL, { useNewUrlParser: true }, (err, database) => {
     if (err) throw err;
 
